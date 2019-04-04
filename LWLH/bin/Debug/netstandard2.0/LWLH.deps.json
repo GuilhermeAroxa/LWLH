@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "7fa1b6f126e6dc85ed77b0918b238e5707871150"
+    "signature": "d274fe8297654aa599fc50e22db426f3d744d20c"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,6 +11,9 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.0.1",
+          "Xamarin.FFImageLoading.Svg": "2.4.4.859",
+          "Xamarin.FFImageLoading.Svg.Forms": "2.4.4.859",
+          "Xamarin.FFImageLoading.Transformations": "2.4.4.859",
           "Xamarin.Forms": "3.6.0.264807"
         },
         "runtime": {
@@ -21,6 +24,14 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "SkiaSharp/1.60.0": {
+        "runtime": {
+          "lib/netstandard1.3/SkiaSharp.dll": {
+            "assemblyVersion": "1.60.0.0",
+            "fileVersion": "1.60.0.0"
+          }
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -39,6 +50,65 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading/2.4.4.859": {
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Platform.dll": {
+            "assemblyVersion": "2.4.4.859",
+            "fileVersion": "2.4.4.859"
+          },
+          "lib/netstandard1.0/FFImageLoading.dll": {
+            "assemblyVersion": "2.4.4.859",
+            "fileVersion": "2.4.4.859"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading.Forms/2.4.4.859": {
+        "dependencies": {
+          "Xamarin.FFImageLoading": "2.4.4.859",
+          "Xamarin.Forms": "3.6.0.264807"
+        },
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Forms.dll": {
+            "assemblyVersion": "2.4.4.859",
+            "fileVersion": "2.4.4.859"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading.Svg/2.4.4.859": {
+        "dependencies": {
+          "SkiaSharp": "1.60.0",
+          "Xamarin.FFImageLoading": "2.4.4.859"
+        },
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Svg.Platform.dll": {
+            "assemblyVersion": "2.4.4.859",
+            "fileVersion": "2.4.4.859"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading.Svg.Forms/2.4.4.859": {
+        "dependencies": {
+          "Xamarin.FFImageLoading.Forms": "2.4.4.859",
+          "Xamarin.FFImageLoading.Svg": "2.4.4.859"
+        },
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Svg.Forms.dll": {
+            "assemblyVersion": "2.4.4.859",
+            "fileVersion": "2.4.4.859"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading.Transformations/2.4.4.859": {
+        "dependencies": {
+          "Xamarin.FFImageLoading": "2.4.4.859"
+        },
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Transformations.dll": {
+            "assemblyVersion": "2.4.4.859",
+            "fileVersion": "2.4.4.859"
           }
         }
       },
@@ -80,6 +150,13 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
+    "SkiaSharp/1.60.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HoSNIZH54rinevEhLUWdeclr+H/QdmOp252+Tt07HTXwQyvRl9eW32ga/X7T56wsR855SKprb0RcnBPRCzlqSA==",
+      "path": "skiasharp/1.60.0",
+      "hashPath": "skiasharp.1.60.0.nupkg.sha512"
+    },
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",
       "serviceable": true,
@@ -93,6 +170,41 @@
       "sha512": "sha512-TUsMSXqdLEZlx0O3EcWMwOF5e8X3Gh0GX28FlH3q8iyKAQBYd8tV+Ja7tHMplf7D8V4NVCG9ELqx2nk/jPWPew==",
       "path": "xamarin.essentials/1.0.1",
       "hashPath": "xamarin.essentials.1.0.1.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading/2.4.4.859": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l2kEcBOlOCujwmNzTwda8TETyyPYINmaNZTrz6heqrZs+I/YQ7HEVcfpz0RVB+or1hL7DHUhf92WdbFzPlLiOw==",
+      "path": "xamarin.ffimageloading/2.4.4.859",
+      "hashPath": "xamarin.ffimageloading.2.4.4.859.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading.Forms/2.4.4.859": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4r0eI8+PTsZjo5QkwW5K/xzrZsZUghml6JlpHDhsorsWK4qKHw8351OODbutoyuqCrQCXCbOekqzMaOV96y4Kg==",
+      "path": "xamarin.ffimageloading.forms/2.4.4.859",
+      "hashPath": "xamarin.ffimageloading.forms.2.4.4.859.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading.Svg/2.4.4.859": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XqSlQ3Xp2RnnadQs68wujo+Og98lGxraB/2/tCgWqup7gqkDAcUmLqpbxh8DYZ7EnokojQMje3kZojsWjsUelQ==",
+      "path": "xamarin.ffimageloading.svg/2.4.4.859",
+      "hashPath": "xamarin.ffimageloading.svg.2.4.4.859.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading.Svg.Forms/2.4.4.859": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4kiBPws7jBlESLgaRZ3IiIjUdKjhjPbW/4M4tD5xuOoCL3Fv6mt3hZMQKunidlT2XndZ9G153S/Xgb4gwF5ISw==",
+      "path": "xamarin.ffimageloading.svg.forms/2.4.4.859",
+      "hashPath": "xamarin.ffimageloading.svg.forms.2.4.4.859.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading.Transformations/2.4.4.859": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yYFwLD6xC7GVpzOK7S+S21qsRhYWhJUIIu2ZsrnPpUIu/h3xp4wSvWDw8qpJ2KMqnsJ7z0zfDGZHRaOFmcys6A==",
+      "path": "xamarin.ffimageloading.transformations/2.4.4.859",
+      "hashPath": "xamarin.ffimageloading.transformations.2.4.4.859.nupkg.sha512"
     },
     "Xamarin.Forms/3.6.0.264807": {
       "type": "package",

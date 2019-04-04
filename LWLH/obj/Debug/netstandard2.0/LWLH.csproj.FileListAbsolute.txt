@@ -1,9 +1,9 @@
 C:\Users\Aroxa\source\repos\LWLH\LWLH\LWLH\bin\Debug\netstandard2.0\LWLH.deps.json
 C:\Users\Aroxa\source\repos\LWLH\LWLH\LWLH\bin\Debug\netstandard2.0\LWLH.dll
 C:\Users\Aroxa\source\repos\LWLH\LWLH\LWLH\bin\Debug\netstandard2.0\LWLH.pdb
-C:\Users\Aroxa\source\repos\LWLH\LWLH\LWLH\obj\Debug\netstandard2.0\LWLH.csprojAssemblyReference.cache
 C:\Users\Aroxa\source\repos\LWLH\LWLH\LWLH\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Aroxa\source\repos\LWLH\LWLH\LWLH\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Aroxa\source\repos\LWLH\LWLH\LWLH\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
+C:\Users\Aroxa\source\repos\LWLH\LWLH\LWLH\obj\Debug\netstandard2.0\View\TrainingView.xaml.g.cs
 C:\Users\Aroxa\source\repos\LWLH\LWLH\LWLH\obj\Debug\netstandard2.0\LWLH.csproj.CoreCompileInputs.cache
 C:\Users\Aroxa\source\repos\LWLH\LWLH\LWLH\obj\Debug\netstandard2.0\LWLH.AssemblyInfoInputs.cache
 C:\Users\Aroxa\source\repos\LWLH\LWLH\LWLH\obj\Debug\netstandard2.0\LWLH.AssemblyInfo.cs
